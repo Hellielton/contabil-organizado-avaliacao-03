@@ -17,11 +17,11 @@ Autor: **Hellielton Reis**.
 
 | O quê | Endereço |
 | --- | --- |
-| Aplicação publicada (front-end) | `COLE AQUI A URL DA VERCEL` |
-| API publicada | `COLE AQUI A URL DO RENDER` |
-| Documentação Swagger | `COLE AQUI A URL DO RENDER`/api-docs |
-| Repositório do front-end | este repositório |
-| Repositório do back-end | `COLE AQUI O LINK DO REPOSITÓRIO DA API` (ou a pasta [`server/`](server) deste repositório) |
+| Aplicação publicada (front-end) | https://contabil-organizado-avaliacao-03.vercel.app |
+| API publicada | https://contabil-organizado-avaliacao-03.onrender.com |
+| Documentação Swagger | https://contabil-organizado-avaliacao-03.onrender.com/api-docs |
+| Repositório do front-end | https://github.com/Hellielton/contabil-organizado-avaliacao-03 |
+| Repositório do back-end | https://github.com/Hellielton/contabil-organizado-avaliacao-03/tree/main/server |
 
 > A API roda no plano gratuito do Render: a primeira requisição após um período parado pode levar cerca de 1 minuto.
 
@@ -77,9 +77,9 @@ No Windows (PowerShell) use `Copy-Item .env.example .env.local` no lugar de `cp`
 
 | Variável | Descrição |
 | --- | --- |
-| `VITE_API_URL` | URL da API, terminando em `/api` |
-| `VITE_SUPABASE_URL` | URL do projeto Supabase |
-| `VITE_SUPABASE_ANON_KEY` | Chave pública `anon` do Supabase |
+| `VITE_API_URL` | URL da API, terminando em `/api` (ex.: `https://sua-api.onrender.com/api`) |
+| `VITE_SUPABASE_URL` | URL do projeto Supabase (ex.: `https://xxxx.supabase.co`) |
+| `VITE_SUPABASE_ANON_KEY` | Chave pública `anon` do Supabase, em Project Settings → API |
 
 ### Back-end (`server/.env`)
 
@@ -152,8 +152,6 @@ própria especificação OpenAPI (todas as rotas documentadas, `$ref` válidos, 
 - **Banco e autenticação:** Supabase
 - **API:** Render (Web Service, diretório raiz `server`, build `npm install`, start `npm start`)
 - **Front-end:** Vercel (`vercel.json` já trata as rotas da SPA)
-
-Passo a passo em [LEIA-PRIMEIRO-AV3.md](LEIA-PRIMEIRO-AV3.md).
 
 ## Licença
 
