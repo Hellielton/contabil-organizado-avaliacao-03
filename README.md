@@ -49,7 +49,7 @@ Detalhes do back-end (camadas, migrations, testes): [server/README.md](server/RE
 
 ## Requisitos
 
-- Node.js 20.6 ou superior
+- Node.js 22 ou superior
 - Uma conta gratuita no [Supabase](https://supabase.com)
 
 ## Instalação (desenvolvimento)
